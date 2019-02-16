@@ -1,6 +1,6 @@
 % "DeportEvent"
 % Manuel Alejandro Benítez García
-% Curso 2017/18
+% Curso 2018/19
 
 # Descripción general del proyecto
 
@@ -24,8 +24,4 @@ OB6: Mostrar a los usuarios registrados un histórico de los eventos en los que 
 
 # Elemento de innovación
 
-Se utilizará Polymer, que es una biblioteca JavaScript de código abierto que se caracteriza por el uso de Web Components.
-Las principales características son :
-- Simplificación en la creación de elementos personalizados
-- Habilita HTML Imports en la aplicación
-- Enlace de datos unidireccional y bidireccional
+Uso de las herramientas para desarrolladores de Paypal, para ofrecer la posibilidad, a los usuarios, de pagar la inscripción de los eventos a través de Paypal. 

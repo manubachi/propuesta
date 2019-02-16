@@ -255,7 +255,7 @@
 
 | **R29**     | **Ver datos de usuario**           |
 | --------------: | :------------------- |
-| **Descripción** | Los usuarios registrados podrán ver sus datos, y el usuario administrador podrá ver el de todos los demás             |
+| **Descripción** | Los usuarios registrados podrán ver sus datos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -291,7 +291,7 @@
 
 | **R33**     | **Borrar eventos**           |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario logueado podrá borrar los eventos que haya creado             |
+| **Descripción** | Un usuario logueado podrá borrar los eventos que haya creado.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -300,7 +300,7 @@
 
 | **R34**     | **Ver datos de evento**           |
 | --------------: | :------------------- |
-| **Descripción** | Los usuarios logueados podrán ver los datos de los eventos             |
+| **Descripción** | Los usuarios logueados podrán ver los datos de los eventos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -309,7 +309,7 @@
 
 | **R35**     | **Inscripción en evento**           |
 | --------------: | :------------------- |
-| **Descripción** | La aplicación debe permitir a los usuarios logueados inscribirse en los eventos              |
+| **Descripción** | La aplicación debe permitir a los usuarios logueados inscribirse en los eventos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -318,7 +318,7 @@
 
 | **R36**     | **Ver usuarios inscritos**           |
 | --------------: | :------------------- |
-| **Descripción** | La aplicación debe mostrar al usuario administrador, los usuarios inscritos en dicho evento             |
+| **Descripción** | La aplicación mostrará una lista con los usuarios inscritos en un determinado evento.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -327,7 +327,7 @@
 
 | **R37**     | **Comprobar inscripción**           |
 | --------------: | :------------------- |
-| **Descripción** | Los usuarios logueados pueden comprobar si están inscritos o no             |
+| **Descripción** | Los usuarios logueados pueden comprobar si están inscritos o no.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
@@ -336,7 +336,7 @@
 
 | **R38**     | **Calendario**           |
 | --------------: | :------------------- |
-| **Descripción** | Mostrar a los usuarios logueados un calendario en el que aparezcan los eventos a los que está inscritos             |
+| **Descripción** | Mostrar a los usuarios logueados un calendario en el que aparezcan los eventos a los que está inscritos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
@@ -345,7 +345,7 @@
 
 | **R39**     | **Hacer Comentarios**           |
 | --------------: | :------------------- |
-| **Descripción** | Permitir a los usuarios logueados hacer comentarios sobre el evento             |
+| **Descripción** | Permitir a los usuarios logueados hacer comentarios sobre el evento.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -354,7 +354,7 @@
 
 | **R40**     | **Eliminar propio comentario**           |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario podrá eliminar su propio comentario             |
+| **Descripción** | Un usuario podrá eliminar su propio comentario.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -363,7 +363,7 @@
 
 | **R41**     | **Eliminar comentarios**           |
 | --------------: | :------------------- |
-| **Descripción** | El usuario administrador podrá borrar comentarios             |
+| **Descripción** | El usuario que ha creado el evento podrá borrar comentarios sobre su propio evento creado.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -372,7 +372,7 @@
 
 | **R42**     | **Añadir imágenes**           |
 | --------------: | :------------------- |
-| **Descripción** | Se podrán añadir imágenes a los eventos             |
+| **Descripción** | Se podrán añadir imágenes a los eventos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -381,7 +381,7 @@
 
 | **R43**     | **Notificaciones**           |
 | --------------: | :------------------- |
-| **Descripción** | La aplicación mandará un correo a los usuarios inscritos en un evento, cuando se acerque el día de dicho evento             |
+| **Descripción** | La aplicación mandará un correo a los usuarios inscritos en un evento, cuando se acerque el día de dicho evento.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
@@ -399,7 +399,7 @@
 
 | **R45**     | **Registro de eventos en los que ha participado el usuario**           |
 | --------------: | :------------------- |
-| **Descripción** | La aplicación mostrará los eventos a los que el usuario se ha registrado             |
+| **Descripción** | La aplicación mostrará los eventos a los que el usuario se ha inscrito.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -408,7 +408,7 @@
 
 | **R46 **     | **Correo de confirmación de borrado**           |
 | --------------: | :------------------- |
-| **Descripción** | Los usuarios que hayan borrado su cuenta, recibirán un correo para confirmar este borrado             |
+| **Descripción** | Los usuarios que hayan borrado su cuenta, recibirán un correo para confirmar este borrado.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
@@ -444,7 +444,7 @@
 
 | **R50**     | **Prohibir inscripciones a un usuario ya inscrito**           |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario ya inscrito en un evento, no podrá volver a inscribirse en ese evento             |
+| **Descripción** | Un usuario ya inscrito en un evento, no podrá volver a inscribirse en ese evento,             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -453,7 +453,7 @@
 
 | **R51**     | **Prohibir inscripciones en un evento ya realizado**           |
 | --------------: | :------------------- |
-| **Descripción** | Los eventos ya realizados no aceptarán más inscripciones             |
+| **Descripción** | Los eventos ya realizados no aceptarán más inscripciones.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -462,7 +462,7 @@
 
 | **R52**     | **Usuarios**           |
 | --------------: | :------------------- |
-| **Descripción** | Los usuarios que usaran la aplicación. Se almacenarán: nombre,apellidos, fecha de nacimiento, Dni, domicilio, y correo eléctronico             |
+| **Descripción** | Los usuarios que usaran la aplicación. Se almacenarán: nombre de usuario, nombre,apellidos, fecha de nacimiento, Dni, y correo eléctronico.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -471,7 +471,7 @@
 
 | **R53**     | **Eventos**           |
 | --------------: | :------------------- |
-| **Descripción** | Son los eventos deportivos que aparecerán en la aplicaciión. Se almacenará: Nombre, Deporte, Lugar, Organizador, participantes, resultados y realizado (sí o no)             |
+| **Descripción** | Son los eventos deportivos que aparecerán en la aplicaciión. Se almacenará: Nombre, Deporte, Lugar, Organizador, participantes, resultados y realizado (sí o no).             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -480,7 +480,7 @@
 
 | **R54**     | **Participantes**           |
 | --------------: | :------------------- |
-| **Descripción** | Son los usuarios que se han inscritos en un evento. Se almacenará: el id del usuario y el id del evento             |
+| **Descripción** | Son los usuarios que se han inscritos en un evento. Se almacenará: el id del usuario, el id del evento y si ha pagado o no.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -498,11 +498,38 @@
 
 | **R56**     | **Resultados**           |
 | --------------: | :------------------- |
-| **Descripción** | Contiene la información de los usuarios y el puesto en el que acabaron. Contendrá : Puesto, id usuario, id evento             |
+| **Descripción** | Contiene la información de los usuarios y el puesto en el que acabaron. Contendrá : Puesto, id usuario, id evento, club.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
+
+
+| **R57**     | **Opción de realizar pago **           |
+| --------------: | :------------------- |
+| **Descripción** | Se dará la opción al usuario de pagar mediante Paypal.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R58**     | **Mostrar numero de inscripciones**           |
+| --------------: | :------------------- |
+| **Descripción** | Al ver la información del evento, se mostrará el número de inscripciones.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R59**     | **Mostrar pdf con los resultados**           |
+| --------------: | :------------------- |
+| **Descripción** | Se mostrarán los resultados en un PDF             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
 
 
 
@@ -566,3 +593,6 @@
 | (**R54**) Participantes | Mínimo | Información | Fácil | v1 |
 | (**R55**) Comentarios | Mínimo | Información | Fácil | v1 |
 | (**R56**) Resultados | Mínimo | Información | Fácil | v1 |
+| (**R57**) Opción de realizar pago  | Importante | Funcional | Difícil | v3 |
+| (**R58**) Mostrar numero de inscripciones | Opcional | Funcional | Fácil | v1 |
+| (**R59**) Mostrar pdf con los resultados | Opcional | Funcional | Difícil | v3 |
