@@ -471,7 +471,7 @@
 
 | **R53**     | **Eventos**           |
 | --------------: | :------------------- |
-| **Descripción** | Son los eventos deportivos que aparecerán en la aplicaciión. Se almacenará: Nombre, Deporte, Lugar, Organizador, participantes, resultados y realizado (sí o no).             |
+| **Descripción** | Son los eventos deportivos que aparecerán en la aplicaciión. Se almacenará: Nombre, Deporte, Lugar, Organizador, participantes, pagina oficial, resultados y realizado (sí o no).             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -526,6 +526,402 @@
 | **R59**     | **Mostrar pdf con los resultados**           |
 | --------------: | :------------------- |
 | **Descripción** | Se mostrarán los resultados en un PDF             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R60**     | **Recuperar contraseña**           |
+| --------------: | :------------------- |
+| **Descripción** | Un usuario puede cambiar su contraseña si no la recuerda             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R61**     | **Buscar eventos por nombre**           |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá buscar eventos por su nombre             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R62**     | **Buscar eventos por tipo de deporte**           |
+| --------------: | :------------------- |
+| **Descripción** | Se buscará eventos por el tipo de deporte que se indique             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R63**     | **Chat**           |
+| --------------: | :------------------- |
+| **Descripción** | La web mostrará un chat general para todos los usuarios logueados             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R64**     | **Salas de chat**           |
+| --------------: | :------------------- |
+| **Descripción** | Cada evento dispondrá de una sala de chat.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R65**     | **Valorar evento**           |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá valorar el evento con un sistema de votación que irá del 1 al 5.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R66**     | **Ranking de usuarios creadores**           |
+| --------------: | :------------------- |
+| **Descripción** | Ranking donde se mostrará los usuarios con más eventos creados             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R67**     | **Ranking de usuarios con más comentarios**           |
+| --------------: | :------------------- |
+| **Descripción** | Ranking donde se mostrará los usuarios con más comentarios             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R68**     | **Ranking de usuarios con más votos**           |
+| --------------: | :------------------- |
+| **Descripción** | Ranking donde se mostrará los usuarios con más votos a los eventos             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R69**     | **Recibir notificaciones**           |
+| --------------: | :------------------- |
+| **Descripción** | Si el usuario lo desea, se mandará un correo cada vez que haya un nuevo evento.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R70**     | **Seguir deporte**           |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá seguir un deporte y recibir notificaciones de los eventos de ese deporte.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R71**     | **Deporte**           |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará el nombre del deporte, descripción, si se juegan por equipos o de forma individual.             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R72**     | **Filtrar eventos**           |
+| --------------: | :------------------- |
+| **Descripción** | Se filtrarán eventos por si se practican de forma individual o por equipos             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R73**     | **Buscar por fechas**           |
+| --------------: | :------------------- |
+| **Descripción** | Buscador para buscar eventos que se realizan desde una fecha hasta otra             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R74**     | **Mostrar eventos del mes**           |
+| --------------: | :------------------- |
+| **Descripción** | En la página principal se mostrarán los eventos del mes actual             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R75**     | **Puntuación media**           |
+| --------------: | :------------------- |
+| **Descripción** | Cada evento muestra su puntuación media en base a las valoraciones             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R76**     | **Página oficial del evento**           |
+| --------------: | :------------------- |
+| **Descripción** | Cada evento, si dispone de ella, mostrará un enlace a su página             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R77**     | **Mostrar participantes del torneo**           |
+| --------------: | :------------------- |
+| **Descripción** | Cuando se ve los detalles de un evento, se mostrarán los participantes de este, de forma paginada.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R78**     | **Seguir usuario**           |
+| --------------: | :------------------- |
+| **Descripción** | Un usuario podrá seguir a otro y ver todo los eventos que realiza             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R79**     | **Perfil de usuario**           |
+| --------------: | :------------------- |
+| **Descripción** | Se mostrará una página de perfil de cada usuario             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R80**     | **Eventos realizados por usuario**           |
+| --------------: | :------------------- |
+| **Descripción** | En el perfil del usuario se podrá ver cada evento en el que se ha inscrito el usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R81**     | **Eventos creados por el usuario**           |
+| --------------: | :------------------- |
+| **Descripción** | En el perfil del usuario se podrá ver cada evento que ha creado el usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R82**     | **Votar comentarios**           |
+| --------------: | :------------------- |
+| **Descripción** | Se podrán votar los comentarios             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R83**     | **Comentar perfil de usuario**           |
+| --------------: | :------------------- |
+| **Descripción** | Otros usuarios podrán comentar el perfil de otro usuario             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R84**     | **Compartir por redes sociales**           |
+| --------------: | :------------------- |
+| **Descripción** | Se podrán compartir un evento por redes sociales.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R85**     | **Subir cartel del evento**           |
+| --------------: | :------------------- |
+| **Descripción** | Al crear  un evento se podrá subir un cartel              |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R86**     | **Formulario de contacto**           |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación incluirá un formulario de contacto, que podrá usarse por los usuarios para realizar consultas, sugerencias o lo que deseen al administrador             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R87**     | **Encuestas**           |
+| --------------: | :------------------- |
+| **Descripción** | En el evento se podrá añadir, si el creador lo desea, encuestas para conocer la opinión de los usuarios             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R88**     | **Promociones**           |
+| --------------: | :------------------- |
+| **Descripción** | Para incentivar el pago a través de la aplicación, se mostrarán los eventos que dispongan de descuentos al pagar a través de la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R89**     | **Preguntas frecuentes**           |
+| --------------: | :------------------- |
+| **Descripción** | Página donde se mostrarán las preguntas frecuentes, acerca del uso de la aplicación, que pueden tener los usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R90**     | **Buscar por lugar**           |
+| --------------: | :------------------- |
+| **Descripción** | Se mostrarán los eventos del lugar o ciudad que se indiquen.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R91**     | **Videos de Youtube**           |
+| --------------: | :------------------- |
+| **Descripción** | En los detalles del evento, se podrán añadir videos de Youtube             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R92**     | **Denunciar comentario**           |
+| --------------: | :------------------- |
+| **Descripción** | Se podrán denunciar comentarios si son irrespetuosos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R93**     | **Eliminación de comentarios con denuncias**           |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación tendrá la capacidad de eliminar comentarios que tengan un determinado número de denuncias             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R94**     | **Artículos**           |
+| --------------: | :------------------- |
+| **Descripción** | Artículos informativos sobre eventos. Se almacenará, el contenido del artículo, id del usuario creador del artículo, id del evento al que se refiere.             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R95**     | **Crear artículos**           |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios logueados pueden crear artículos sobre los eventos que existen.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R96**     | **Modificar artículo**           |
+| --------------: | :------------------- |
+| **Descripción** | El creador del artículo podrá modificarlo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R97**     | **Eliminar artículo**           |
+| --------------: | :------------------- |
+| **Descripción** | El creador del artículo podrá eliminarlo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R98**     | **Denunciar artículo**           |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán denunciar un artículo             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R99**     | **Eliminación de artículos con denuncias**           |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación tendrá la capacidad de eliminar artículos que tengan un determinado número de denuncias             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R100**     | **Validación de usuarios**           |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios recibirán un email para validar su cuenta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R101**     | **Restricción del uso para usuarios no validados**           |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios no validados no podrán acceder a la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R102**     | **Eliminación de usuarios no validados**           |
+| --------------: | :------------------- |
+| **Descripción** | Pasado un determinado tiempo, si el usuario no se ha validado, la aplicación borrará su cuenta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R103**     | **Mapas**           |
+| --------------: | :------------------- |
+| **Descripción** | En el evento se mostrará la ubicación de este mediante Google Maps             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
@@ -596,3 +992,47 @@
 | (**R57**) Opción de realizar pago  | Importante | Funcional | Difícil | v3 |
 | (**R58**) Mostrar numero de inscripciones | Opcional | Funcional | Fácil | v1 |
 | (**R59**) Mostrar pdf con los resultados | Opcional | Funcional | Difícil | v3 |
+| (**R60**) Recuperar contraseña | Importante | Funcional | Media | v2 |
+| (**R61**) Buscar eventos por nombre | Importante | Funcional | Fácil | v2 |
+| (**R62**) Buscar eventos por tipo de deporte | Importante | Funcional | Fácil | v2 |
+| (**R63**) Chat | Opcional | Funcional | Difícil | v3 |
+| (**R64**) Salas de chat | Opcional | Funcional | Difícil | v3 |
+| (**R65**) Valorar evento | Importante | Funcional | Media | v2 |
+| (**R66**) Ranking de usuarios creadores | Opcional | Funcional | Fácil | v2 |
+| (**R67**) Ranking de usuarios con más comentarios | Opcional | Funcional | Fácil | v2 |
+| (**R68**) Ranking de usuarios con más votos | Opcional | Funcional | Fácil | v2 |
+| (**R69**) Recibir notificaciones | Opcional | Funcional | Difícil | v3 |
+| (**R70**) Seguir deporte | Opcional | Funcional | Difícil | v3 |
+| (**R71**) Deporte | Mínimo | Información | Fácil | v1 |
+| (**R72**) Filtrar eventos | Opcional | Funcional | Media | v2 |
+| (**R73**) Buscar por fechas | Opcional | Funcional | Difícil | v3 |
+| (**R74**) Mostrar eventos del mes | Importante | Funcional | Difícil | v2 |
+| (**R75**) Puntuación media | Importante | Funcional | Media | v2 |
+| (**R76**) Página oficial del evento | Importante | Funcional | Fácil | v1 |
+| (**R77**) Mostrar participantes del torneo | Importante | Funcional | Media | v2 |
+| (**R78**) Seguir usuario | Opcional | Funcional | Difícil | v3 |
+| (**R79**) Perfil de usuario | Importante | Funcional | Media | v2 |
+| (**R80**) Eventos realizados por usuario | Importante | Funcional | Media | v3 |
+| (**R81**) Eventos creados por el usuario | Importante | Funcional | Media | v3 |
+| (**R82**) Votar comentarios | Importante | Funcional | Fácil | v1 |
+| (**R83**) Comentar perfil de usuario | Opcional | Funcional | Media | v2 |
+| (**R84**) Compartir por redes sociales | Opcional | Funcional | Difícil | v3 |
+| (**R85**) Subir cartel del evento | Importante | Funcional | Media | v2 |
+| (**R86**) Formulario de contacto | Opcional | Funcional | Media | v3 |
+| (**R87**) Encuestas | Opcional | Funcional | Difícil | v3 |
+| (**R88**) Promociones | Importante | Funcional | Media | v2 |
+| (**R89**) Preguntas frecuentes | Importante | Funcional | Media | v2 |
+| (**R90**) Buscar por lugar | Importante | Funcional | Media | v2 |
+| (**R91**) Videos de Youtube | Opcional | Funcional | Difícil | v3 |
+| (**R92**) Denunciar comentario | Importante | Funcional | Media | v2 |
+| (**R93**) Eliminación de comentarios con denuncias | Importante | Técnico | Difícil | v3 |
+| (**R94**) Artículos | Mínimo | Información | Fácil | v1 |
+| (**R95**) Crear artículos | Importante | Funcional | Fácil | v1 |
+| (**R96**) Modificar artículo | Importante | Funcional | Fácil | v1 |
+| (**R97**) Eliminar artículo | Importante | Funcional | Fácil | v1 |
+| (**R98**) Denunciar artículo | Importante | Funcional | Media | v2 |
+| (**R99**) Eliminación de artículos con denuncias | Importante | Técnico | Difícil | v3 |
+| (**R100**) Validación de usuarios | Importante | Funcional | Media | v1 |
+| (**R101**) Restricción del uso para usuarios no validados | Importante | Funcional | Media | v1 |
+| (**R102**) Eliminación de usuarios no validados | Importante | Funcional | Difícil | v3 |
+| (**R103**) Mapas | Opcional | Funcional | Difícil | v3 |
